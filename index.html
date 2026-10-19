@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173a47">
+  <meta name="description" content="為寬60、深45、高45公分系統櫃查核的保險櫃選購指南。比較尺寸、價格、三種獨立開鎖、全鋼實心鎖栓及無Wi-Fi條件，附台灣購買與證據連結。">
+  <title>櫃內選物｜60 × 45 × 45 保險櫃選購指南</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要內容</a>
+  <header class="site-header wrap">
+    <a class="wordmark" href="#" aria-label="櫃內選物，回到頂端"><span class="brand-mark" aria-hidden="true">▤</span>櫃內選物<span class="wordmark-en">SAFE / SELECT</span></a>
+    <nav aria-label="主要導覽"><a href="#recommendations">推薦結果</a><a href="#comparison">規格比較</a><a href="#method">查核方式</a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span aria-hidden="true"></span> 為你的系統櫃，逐項查核</p>
+        <h1 id="hero-title">放進系統櫃，<br>從<span>尺寸</span>開始選。</h1>
+        <p class="hero-description">選購條件：鑰匙、自訂密碼、指紋獨立開門。<br>兩層收納、全鋼實心鎖栓，型號不能有 Wi-Fi。<br>符合才推薦，還沒查清楚的，就把缺口說清楚。</p>
+        <a class="button primary" href="#comparison">查看規格比較 <span aria-hidden="true">↗</span></a>
+        <p class="hero-footnote">台灣通路與保固 · 不限預算 · 不要求固定或防火認證</p>
+      </div>
+      <div class="fit-board">
+        <div class="board-heading"><span>你的櫃內淨空</span><span class="unit-label">單位 cm</span></div>
+        <div class="space-values"><span><small>寬</small>60</span><b>×</b><span><small>深</small>45</span><b>×</b><span><small>高</small>45</span></div>
+        <svg id="cabinet-diagram" viewBox="0 0 530 290" role="img" aria-labelledby="diagram-title diagram-desc">
+          <title id="diagram-title">櫃內淨空與商品標示尺寸的正面、側面對照</title>
+          <desc id="diagram-desc">寬60、深45、高45公分。尺寸圖僅按公開箱體尺寸繪製，不能代替含突出物及安裝餘量的查核。</desc>
+          <defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M 24 0 L 0 0 0 24" fill="none" stroke="#dce5e8" stroke-width="0.6"/></pattern></defs>
+          <rect x="0" y="0" width="530" height="290" fill="url(#grid)"/>
+          <g fill="none" stroke="#9cabb2" stroke-width="1.2"><path d="M33 52H285M33 47V57M285 47V57"/><path d="M18 70V259M13 70H23M13 259H23"/><path d="M316 52H505M316 47V57M505 47V57"/></g>
+          <g fill="#536a75" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle"><text x="159" y="40">寬 60</text><text x="410" y="40">深 45</text><text x="159" y="281">正面</text><text x="410" y="281">側面</text><text x="19" y="163" transform="rotate(-90 19 163)">高 45</text></g>
+          <g fill="#e9eff1" fill-opacity=".66" stroke="#526c78" stroke-width="2"><rect x="33" y="70" width="252" height="189"/><rect x="316" y="70" width="189" height="189"/></g>
+          <g id="safe-front" transform="translate(77 91)"><rect id="front-body" width="168" height="168" rx="5" fill="#587783" stroke="#294955" stroke-width="2"/><rect id="front-door" x="8" y="8" width="152" height="152" rx="3" fill="#6b8994" stroke="#aac0c8"/><g id="safe-lock" transform="translate(109 76)"><rect x="-20" y="-23" width="40" height="43" rx="7" fill="#244651"/><circle cy="-9" r="7" fill="none" stroke="#c8dce2" stroke-width="1.4"/><path d="M-8 6H8M-8 11H8" stroke="#c8dce2" stroke-width="2"/><path d="M30 -5V23" stroke="#d0e0e5" stroke-width="5" stroke-linecap="round"/></g></g>
+          <rect id="safe-side" x="339" y="91" width="144" height="168" rx="4" fill="#587783" fill-opacity=".88" stroke="#294955" stroke-width="2"/>
+        </svg>
+        <label class="diagram-label" for="diagram-select">選擇商品尺寸對照</label>
+        <select id="diagram-select" disabled><option>正在載入商品…</option></select>
+        <p id="diagram-size" class="diagram-size">寬 × 深 × 高，統一使用公分</p>
+        <p class="diagram-note">示意圖依公開箱體尺寸繪製，非商品實拍。是否含把手、腳座與必要餘量，請看逐項查核。</p>
+      </div>
+    </section>
+
+    <div class="research-strip"><div class="wrap strip-inner"><span class="strip-label">這份指南的原則</span><strong>規格有證據，才算通過。</strong><span>不把「沒有查到負評」寫成「零負評」。</span><span class="checked-date">查核日期 <time id="checked-at">載入中</time></span></div></div>
+
+    <div class="wrap content">
+      <div id="load-status" role="status" class="load-status">正在載入商品與查核資料…</div>
+      <noscript><p class="error-message">請啟用 JavaScript 以讀取商品比較資料。你也可以直接開啟 <a href="./products.json">商品與證據資料</a>。</p></noscript>
+
+      <section id="recommendations" class="section" aria-labelledby="results-title">
+        <div class="section-heading"><div><p class="eyebrow">01 / 查核結果</p><h2 id="results-title">先看結果，再看細節。</h2></div><div class="result-counts"><span><b id="recommended-count">—</b> 款確認符合</span><span><b id="pending-count">—</b> 款待確認</span></div></div>
+        <div id="recommendation-content"></div>
+      </section>
+
+      <section id="comparison" class="section" aria-labelledby="comparison-title">
+        <div class="section-heading"><div><p class="eyebrow">02 / 放在一起比較</p><h2 id="comparison-title">同一把尺，逐款比較。</h2></div><span class="section-aside">尺寸順序：寬 × 深 × 高（cm）</span></div>
+        <p class="section-intro">這裡包含待確認候選；尺寸小於淨空，仍須核對突出物及安裝餘量。價格為查核當下的商品售價，運送費另列。</p>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="商品規格比較表，可左右捲動">
+          <table><caption class="sr-only">保險櫃品牌、型號、尺寸、重量、價格與查核狀態比較</caption><thead><tr><th scope="col">品牌 / 型號</th><th scope="col">標示外部尺寸</th><th scope="col">重量 / 收納</th><th scope="col">參考售價</th><th scope="col">查核狀態</th><th scope="col">商品頁</th></tr></thead><tbody id="comparison-body"></tbody></table>
+        </div>
+        <p class="table-hint">手機可左右滑動表格，或往下看逐款查核卡片。</p>
+      </section>
+
+      <section id="candidates" class="section" aria-labelledby="candidates-title">
+        <div class="section-heading"><div><p class="eyebrow">03 / 保留問題，不省略問題</p><h2 id="candidates-title">待確認候選。</h2></div><span class="section-aside">補齊證據後，才可能進入推薦</span></div>
+        <details id="pending-details" class="pending-disclosure"><summary><span><span class="status-dot pending" aria-hidden="true"></span>展開候選與逐項查核 <span id="pending-summary-count"></span></span><span class="disclosure-plus" aria-hidden="true">＋</span></summary><div id="pending-products" class="product-grid"></div></details>
+      </section>
+
+      <section id="method" class="section method-section" aria-labelledby="method-title">
+        <div><p class="eyebrow">04 / 如何篩選</p><h2 id="method-title">每一款，<br>都要過這幾關。</h2><p class="method-note">沒有把握的項目會標為「待確認」。<br>硬性條件不符合或查得同型號產品負評的商品，不收進這份清單。</p></div>
+        <div class="method-list">
+          <div><span>01</span><div><h3>放得進，也留得夠</h3><p>寬60 × 深45 × 高45 cm，核對含把手、腳座與面板的最大外廓，以及原廠必要預留空間。門片可向前伸出。</p></div></div>
+          <div><span>02</span><div><h3>三種獨立開鎖，兩層收納</h3><p>鑰匙、自訂密碼、指紋各自能開門；至少一片層板，形成兩層可使用空間。</p></div></div>
+          <div><span>03</span><div><h3>全鋼實心鎖栓，完全沒有 Wi-Fi</h3><p>鎖栓的鋼材與實心結構須有證據。不能用「鋼製箱體」推定鎖栓，也不能把「可離線」當成「無 Wi-Fi」。</p></div></div>
+          <div><span>04</span><div><h3>台灣購買與保固，同型號負評查核</h3><p>核對官方與台灣通路資料，搜尋型號別名、購物評論、Mobile01、PTT、Dcard。品牌其他型號的負評不連帶排除。</p></div></div>
+        </div>
+      </section>
+      <aside class="reading-notes"><div><h3>評價的界線</h3><p>「未查得可驗證同型號負評」僅描述本次搜尋結果。評論無法完整讀取或樣本有限時會揭露，不能代表從未有人遇到問題。</p></div><div><h3>價格與安裝的界線</h3><p>價格、庫存與運費以購買頁結帳時為準。網站不自動更新；不固定安裝，購買前仍需向系統櫃廠商確認承重與開門位置。防火認證不列為必備，沒有證據不宣稱防火。</p></div></aside>
+    </div>
+  </main>
+  <footer class="site-footer wrap"><div><strong>櫃內選物</strong><span>把資訊查清楚，把選擇留給你。</span></div><a href="https://github.com/River-Ye/safe-buying-guide" target="_blank" rel="noopener noreferrer">資料與網站原始碼 ↗</a></footer>
+</body>
+</html>

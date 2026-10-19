@@ -1,0 +1,390 @@
+{
+  "checkedAt": "2026-10-19",
+  "timezone": "Asia/Taipei",
+  "space": {
+    "width": 60,
+    "depth": 45,
+    "height": 45
+  },
+  "products": [
+    {
+      "id": "easykey-s45",
+      "brand": "EasyKey",
+      "model": "S-45",
+      "summary": "原廠有公開售價與兩年保固，密碼設定有系列手冊可追查；無 Wi-Fi、確切層板數及最大外廓仍缺證據。",
+      "dimensions": {
+        "width": 41,
+        "depth": 34,
+        "height": 45,
+        "totalVerified": null,
+        "source": "pchome"
+      },
+      "requiredSpace": null,
+      "fitNote": "PChome 標示寬41 × 深34 × 高45 cm；未明示含腳座、面板等全部突出物，也未取得必要預留空間。標示高度已等於櫃內45 cm，沒有高度餘裕。",
+      "weightKg": 37,
+      "storage": "層板數量待確認",
+      "warrantyLabel": "官網標示 2 年",
+      "warrantyNote": "舊系列手冊有1年表單，以目前官網條款確認。",
+      "price": {
+        "amount": 17000,
+        "currency": "TWD",
+        "label": "原廠商品售價",
+        "source": "official",
+        "stock": "官網有加入購物車功能，實際現貨與交期未確認。",
+        "shortStock": "現貨與交期待確認",
+        "shipping": "官網列運費 NT$3,000；無電梯樓層費每層 NT$500。無須固定安裝，固定費不計入。其他條件以原廠確認為準。"
+      },
+      "purchaseUrl": "https://www.easykey.com.tw/tw/product-detail/60",
+      "purchaseSource": "official",
+      "shortGap": "無 Wi-Fi、層板與總尺寸待確認",
+      "pendingSummary": "未取得確定無 Wi-Fi 的證據；層板數量、鎖栓鋼材及含腳座／面板的總尺寸仍需確認。高度標示45 cm，沒有高度餘裕。",
+      "requirements": {
+        "independentUnlocks": {
+          "value": true,
+          "note": "官方系列手冊的普通模式可用指紋或密碼單獨解鎖；台灣供應商針對 S-45 的教學另示範未裝電池時用鑰匙開門。安全模式為可選設定。",
+          "sources": [
+            "manual",
+            "key-guide"
+          ]
+        },
+        "programmablePin": {
+          "value": true,
+          "note": "官方 S 系列手冊提供修改用戶與管理密碼的步驟，可自行設定4–8位密碼。",
+          "sources": [
+            "manual"
+          ]
+        },
+        "twoLevels": {
+          "value": null,
+          "note": "尚未找到明確指向 S-45 的層板數量證據；不以其他尺寸或系列手冊示意圖推定。",
+          "sources": [
+            "official",
+            "pchome"
+          ]
+        },
+        "steelBolts": {
+          "value": null,
+          "note": "通路列有實心鎖栓與全鋼箱體，但沒有將鎖栓本身的鋼材逐項寫明，不能直接認定符合。",
+          "sources": [
+            "pchome"
+          ]
+        },
+        "wifiAbsent": {
+          "value": null,
+          "note": "可讀官方規格與系列手冊未明示此型號不含 Wi-Fi；沒有提到連網功能，不等於證明沒有。",
+          "sources": [
+            "official",
+            "manual"
+          ]
+        },
+        "taiwanWarranty": {
+          "value": true,
+          "note": "可從台灣原廠官網購買；目前 S-45 商品頁列兩年保固。系列手冊的舊保固表單與現行頁面不同，須以購買時條款確認。",
+          "sources": [
+            "official"
+          ]
+        }
+      },
+      "review": {
+        "status": "limited",
+        "note": "截至 2026-10-19，未查得可驗證同型號負評，評價資料有限。這是本次可存取來源的搜尋結果，不代表零負評。",
+        "queries": [
+          "\"EasyKey\" \"S-45\" 評價 缺點 故障",
+          "\"Easykey S45\" 評價 故障",
+          "\"S-45\" \"保險箱\" (site:mobile01.com OR site:ptt.cc OR site:dcard.tw)"
+        ],
+        "coverage": [
+          "已用 S-45、S45、EasyKey 等型號別名搭配評價／故障關鍵字搜尋。",
+          "已搜尋 Mobile01、PTT、Dcard；未找到可核實的同型號產品抱怨。",
+          "momo 可存取頁面顯示尚無評價；PChome 可讀文字未呈現評論內容。"
+        ],
+        "limitations": "獨立同型號評價樣本不足；沒有完整讀取所有通路評論。混合 S-45／S-58 等型號的賣場評分不當作此型號的評價。"
+      },
+      "sources": [
+        {
+          "id": "official",
+          "label": "EasyKey 原廠 S-45 商品頁",
+          "shortLabel": "原廠商品頁",
+          "url": "https://www.easykey.com.tw/tw/product-detail/60",
+          "note": "原廠售價NT$17,000、保固2年，另列運費NT$3,000與無電梯樓層費每層NT$500。加入購物車不代表已確認現貨。"
+        },
+        {
+          "id": "manual",
+          "label": "EasyKey 官方 S 系列使用說明書",
+          "shortLabel": "官方手冊",
+          "url": "https://www.easykey.com.tw/upload/web/Manual/EK-S%E7%B3%BB%E5%88%97%E4%BF%9D%E9%9A%AA%E7%AE%B1%E8%AA%AA%E6%98%8E%E6%9B%B8.pdf",
+          "note": "提供4–8位用戶／管理密碼設定與普通／安全開門模式。這是系列手冊，不以其抽屜、腳輪示意圖判定 S-45 的收納或外廓。"
+        },
+        {
+          "id": "key-guide",
+          "label": "S-45 台灣供應商使用教學",
+          "shortLabel": "鑰匙教學",
+          "url": "https://www.hs-cctv.com.tw/fingerprint-safe-how-to-use/",
+          "note": "教學有用隨附鑰匙開門、再裝電池，以及普通模式的操作。此為技術補充，購買連結使用原廠官網。"
+        },
+        {
+          "id": "pchome",
+          "label": "PChome S-45 規格頁",
+          "shortLabel": "通路規格",
+          "url": "https://24h.pchome.com.tw/prod/DQBS18-A900JUU8S",
+          "note": "標示寬41×深34×高45cm、37kg、實心鎖栓與鋼製箱體；鎖栓本身材質與層板數量仍缺明確證據。"
+        },
+        {
+          "id": "momo-reviews",
+          "label": "momo S-45 評價頁",
+          "shortLabel": "momo 評價",
+          "url": "https://www.momoshop.com.tw/TP/TP0005965/goodsDetail/TP00059650000117",
+          "note": "本次可存取頁面顯示尚無評價；不能把無評論視為品質保證。"
+        }
+      ]
+    },
+    {
+      "id": "siandai-bgx40",
+      "brand": "現代金庫",
+      "model": "BGX-40 銀河藍",
+      "summary": "一片固定層板，且有實心不鏽鋼門栓證據；鑰匙與備用系統的文案不同，不能直接判定三種都可獨立開門。",
+      "dimensions": {
+        "width": 45,
+        "depth": 36,
+        "height": 40,
+        "totalVerified": null,
+        "source": "official"
+      },
+      "requiredSpace": null,
+      "fitNote": "官方標示寬45 × 深36 × 高40 cm；仍未確認深度是否包含分離式把手、全部突出物及必要安裝餘量。",
+      "weightKg": 35,
+      "weightLabel": "約 34.5–35 kg",
+      "storage": "1片固定層板／2層",
+      "warrantyLabel": "官網購買條款待確認",
+      "warrantyNote": "其他通路列3年，不能直接套用。",
+      "price": {
+        "amount": 24500,
+        "currency": "TWD",
+        "label": "官網售價（目前缺貨）",
+        "source": "official",
+        "stock": "官網明示暫無庫存；PChome 另有商品頁，庫存未確認。",
+        "shortStock": "官網明示暫無庫存",
+        "shipping": "官網產品頁未列確切運費；PChome 標示廠商出貨、可宅配，實際運費與交期待確認。"
+      },
+      "purchaseUrl": "https://www.sdsafe.com.tw/product/%E9%8A%80%E6%B2%B3%E8%97%8D-%E7%A7%91%E6%8A%80%E6%8C%87%E7%B4%8B%E7%B3%BB%E5%88%97-BGX-40/b03453040631407f9e0cd91102c3c70d",
+      "purchaseSource": "official",
+      "shortGap": "鑰匙與備用系統文案不同",
+      "pendingSummary": "無 Wi-Fi、完整外廓與自訂密碼步驟尚未確認。部分通路寫鑰匙，品牌／代理資料寫備用系統，不能把兩者直接當成相同功能。官網目前缺貨。",
+      "requirements": {
+        "independentUnlocks": {
+          "value": null,
+          "note": "官方／代理頁面描述 PIN、指紋與備用系統；momo 文案另寫鑰匙。尚無操作手冊證明三種方式皆可獨立開門。",
+          "sources": [
+            "distributor",
+            "momo"
+          ]
+        },
+        "programmablePin": {
+          "value": null,
+          "note": "已知支援 PIN 開鎖，但本次未取得能確認使用者修改密碼的步驟。",
+          "sources": [
+            "distributor"
+          ]
+        },
+        "twoLevels": {
+          "value": true,
+          "note": "官方商品頁明列1片固定隔板，可形成上下兩層。",
+          "sources": [
+            "official"
+          ]
+        },
+        "steelBolts": {
+          "value": true,
+          "note": "PChome 供應商圖文明列32mm實心門栓，並明示不鏽鋼材質；不使用其他系列的門栓規格。",
+          "sources": [
+            "pchome"
+          ]
+        },
+        "wifiAbsent": {
+          "value": null,
+          "note": "官方與代理頁面未提供明確的無 Wi-Fi 聲明；不能用未提及功能來代替確認。",
+          "sources": [
+            "official",
+            "distributor"
+          ]
+        },
+        "taiwanWarranty": {
+          "value": null,
+          "note": "momo／台灣代理列本地保固，但本卡購買連結為現代金庫官網。尚未取得相同購買通路的確切保固條款，不能直接套用其他通路的3年承諾。",
+          "sources": [
+            "official",
+            "momo",
+            "warranty"
+          ]
+        }
+      },
+      "review": {
+        "status": "limited",
+        "note": "截至 2026-10-19，未查得可驗證同型號負評，評價資料有限。這是本次可存取來源的搜尋結果，不代表零負評。",
+        "queries": [
+          "\"BGX-40\" 保險箱 負評 故障 抱怨",
+          "\"現代金庫\" \"BGX40\" 評價",
+          "\"BGX-40\" (site:mobile01.com OR site:ptt.cc OR site:dcard.tw)"
+        ],
+        "coverage": [
+          "使用現代金庫、銀河藍、BGX-40／BGX40 搭配故障／抱怨／負評搜尋。",
+          "已定向搜尋 Mobile01、PTT、Dcard。BGX-40 也被其他品牌使用，沒有將不相干商品算入。",
+          "momo 可存取頁面顯示尚無評價；PChome 未呈現可讀評論文字。"
+        ],
+        "limitations": "可讀的同型號使用評價不足。品牌其他型號或同名但不同品牌保險箱的意見，不作此型號的排除依據。"
+      },
+      "sources": [
+        {
+          "id": "official",
+          "label": "現代金庫 BGX-40 官方商品頁",
+          "shortLabel": "官方商品頁",
+          "url": "https://www.sdsafe.com.tw/product/%E9%8A%80%E6%B2%B3%E8%97%8D-%E7%A7%91%E6%8A%80%E6%8C%87%E7%B4%8B%E7%B3%BB%E5%88%97-BGX-40/b03453040631407f9e0cd91102c3c70d",
+          "note": "官網售價NT$24,500，明示暫無庫存；標示寬45×深36×高40cm及固定隔板1片。"
+        },
+        {
+          "id": "distributor",
+          "label": "COMFO 銀河藍代理規格",
+          "shortLabel": "代理規格",
+          "url": "https://www.comfo.com.tw/product/siandai-safe-galaxy-blue",
+          "note": "列 PIN、指紋與備用系統；沒有將備用系統說成可獨立開門的機械鑰匙。重量標示約34.5kg，與通路約35kg略有差異。"
+        },
+        {
+          "id": "warranty",
+          "label": "COMFO 台灣代理保固資訊",
+          "shortLabel": "代理保固",
+          "url": "https://www.comfo.com.tw/en/product/siandai-safe-galaxy-blue",
+          "note": "代理頁列本地保固服務；保固對象與範圍以實際購買通路為準。"
+        },
+        {
+          "id": "pchome",
+          "label": "PChome BGX-40 規格與購買頁",
+          "shortLabel": "PChome 規格",
+          "url": "https://24h.pchome.com.tw/prod/DQBS18-A900HJGTL",
+          "note": "供應商圖文明列32mm實心不鏽鋼門栓。網路價NT$29,000；另顯示與過期活動相關的折扣價，本指南不採用該折扣報價。"
+        },
+        {
+          "id": "momo",
+          "label": "momo BGX-40 規格與評價頁",
+          "shortLabel": "momo 通路",
+          "url": "https://www.momoshop.com.tw/TP/TP0003088/goodsDetail/TP00030880000012",
+          "note": "列三年保固與鑰匙功能，但鑰匙文案和代理備用系統描述不一致，列為待確認。可存取頁面顯示尚無評價。"
+        }
+      ]
+    },
+    {
+      "id": "renpu-x4f",
+      "brand": "發億金庫",
+      "model": "X-4F",
+      "summary": "無手把平面設計，有可調層板與原廠公開價格；高度標示45cm，總高度及原廠必要預留空間仍需確認。",
+      "dimensions": {
+        "width": 36,
+        "depth": 36,
+        "height": 45,
+        "totalVerified": null,
+        "source": "official"
+      },
+      "requiredSpace": null,
+      "fitNote": "官網標示寬36 × 深36 × 高45 cm。無手把設計不等於已核對腳座與全部突出物；尚未取得最大外廓與必要預留空間，高度沒有餘裕。",
+      "weightKg": 20,
+      "storage": "1片可調層板／2層",
+      "warrantyLabel": "官網標示 1 年",
+      "warrantyNote": "PChome 政策圖另列90天，通路不同須確認。",
+      "price": {
+        "amount": 10800,
+        "currency": "TWD",
+        "label": "原廠頁面售價",
+        "source": "official",
+        "stock": "原廠列價格與購買入口，未確認實際庫存。",
+        "shortStock": "現貨與交期待確認",
+        "shipping": "此原廠產品頁未列確切運費，樓層與偏遠地區費用待報價。不套用其他通路的運送承諾。"
+      },
+      "purchaseUrl": "https://www.renpu.com.tw/?cat=group&group=1&m=x4f",
+      "purchaseSource": "official",
+      "shortGap": "總高度、無 Wi-Fi 與鎖栓材質待確認",
+      "pendingSummary": "型號無 Wi-Fi、鑰匙／密碼／指紋獨立開門的操作證據、自訂密碼步驟、鎖栓鋼材與完整外廓仍有缺口。原廠與 PChome 的保固文字也不同。",
+      "requirements": {
+        "independentUnlocks": {
+          "value": null,
+          "note": "官網分列指紋、密碼、緊急鑰匙開啟；但尚未取得精確型號操作手冊，確認三者皆可獨立開門。",
+          "sources": [
+            "official"
+          ]
+        },
+        "programmablePin": {
+          "value": null,
+          "note": "官網支援虛位密碼；本次未取得使用者自訂或修改密碼的操作說明，兩者不能直接畫上等號。",
+          "sources": [
+            "official"
+          ]
+        },
+        "twoLevels": {
+          "value": true,
+          "note": "官方圖文有可調節隔板，可分成上下兩層使用。",
+          "sources": [
+            "official"
+          ]
+        },
+        "steelBolts": {
+          "value": null,
+          "note": "官方列實心門栓及合金鋼材箱體，仍未把門栓本身的鋼材逐項說明。",
+          "sources": [
+            "official"
+          ]
+        },
+        "wifiAbsent": {
+          "value": null,
+          "note": "官方產品頁未明示此型號不含 Wi-Fi；僅列本機操作功能，證據仍不足。",
+          "sources": [
+            "official"
+          ]
+        },
+        "taiwanWarranty": {
+          "value": true,
+          "note": "台灣原廠有購買入口與一年保固文字。PChome 商品政策圖另列90天，不混用為同一承諾。",
+          "sources": [
+            "official",
+            "pchome"
+          ]
+        }
+      },
+      "review": {
+        "status": "limited",
+        "note": "截至 2026-10-19，未查得可驗證同型號負評，評價資料有限。這是本次可存取來源的搜尋結果，不代表零負評。",
+        "queries": [
+          "\"發億\" \"X-4F\" 評價 缺點 故障",
+          "\"發億\" \"X4F\" 評價 故障",
+          "\"X-4F\" (site:mobile01.com OR site:ptt.cc OR site:dcard.tw)"
+        ],
+        "coverage": [
+          "已搜尋 X-4F、X4F 與發億品牌搭配故障／缺點／評價，並定向搜尋 Mobile01、PTT、Dcard。",
+          "PChome 顯示12筆評分；本次只讀到首3筆，其中1筆正面文字、2筆無文字；其餘9筆未能讀取。",
+          "Mobile01 有同型號推薦；附近的一般小保險箱評論未明確指向 X-4F，沒有混算為此型號負評。"
+        ],
+        "limitations": "不能宣稱已檢閱全部12筆評分。4星本身不直接等於產品負評；其他型號、顏色版本或一般品類批評需確認指向，不能任意套用。"
+      },
+      "sources": [
+        {
+          "id": "official",
+          "label": "發億 X-4F 原廠規格與購買入口",
+          "shortLabel": "原廠商品頁",
+          "url": "https://www.renpu.com.tw/?cat=group&group=1&m=x4f",
+          "note": "原廠列NT$10,800、寬36×深36×高45cm、20kg、可調層板、三種開啟方式與一年保固；沒有提供無Wi-Fi的明確證據。"
+        },
+        {
+          "id": "pchome",
+          "label": "PChome X-4F 規格與評價頁",
+          "shortLabel": "PChome 通路",
+          "url": "https://24h.pchome.com.tw/prod/DQBS0U-A900GZ51P",
+          "note": "通路政策圖列90天保固，與原廠1年不同。12筆評分中僅首3筆內容可存取，其餘未能完整讀取。"
+        },
+        {
+          "id": "forum",
+          "label": "Mobile01 保險箱選購討論",
+          "shortLabel": "Mobile01 討論",
+          "url": "https://www.mobile01.com/topicdetail.php?f=37&t=7003746",
+          "note": "有明確提及 X-4F 的推薦。討論串的一般小保險箱意見未必指向此型號，不任意當成同型號產品負評。"
+        }
+      ]
+    }
+  ]
+}
